@@ -26,6 +26,9 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git fetch origin prod
+          git checkout prod || git checkout -b prod
+          git reset --hard origin/prod
           git add -f dist
-          git commit -m "Deploy"
+          git commit -m "Deploy" || echo "No changes to commit"
           git subtree push --prefix dist origin prod
