@@ -10,7 +10,7 @@ function App() {
       <Header />
 
       <footer className="bg-white shadow-inner py-4 text-center text-gray-500 text-sm">
-        Made by EmrD, {new Date().getFullYear()}
+        By EmrD, {new Date().getFullYear()}
       </footer>
     </div>
   );
