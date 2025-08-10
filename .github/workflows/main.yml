@@ -31,4 +31,4 @@ jobs:
           git reset --hard origin/prod
           git add -f dist
           git commit -m "Deploy" || echo "No changes to commit"
-          git subtree push --prefix dist origin prod
+          git push origin prod --force
