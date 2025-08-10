@@ -18,18 +18,21 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-
+        
       - name: Build project
         run: npm run build
       
-      - name: Deploy to prod branch (overwrite)
+      - name: Deploy to prod branch
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git fetch origin prod
-          git checkout prod || git checkout -b prod
-          git rm -rf .       # prod branch'teki tüm dosyaları sil
-          cp -r dist/* .     # dist içeriğini prod branch root'una kopyala
+          git worktree add ../prod prod
+          rm -rf ../prod/*
+          cp -r dist/* ../prod/
+          cd ../prod
           git add .
           git commit -m "Deploy" || echo "No changes to commit"
           git push origin prod --force
+          cd -
+          git worktree remove ../prod
