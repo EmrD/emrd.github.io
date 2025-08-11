@@ -51,7 +51,7 @@ export default function Header() {
                     className="rounded-full w-32 h-32 mb-4 shadow-lg"
                 />
                 <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-400 via-cyan-500 to-teal-400 bg-clip-text text-transparent">
-                    Hi, I'm EmrD...
+                    I'm EmrD...
                 </h2>
                 <p className="mt-2 text-gray-600 max-w-md text-2xl font-bold">
                     Full-Stack Developer, Vulnerability Researcher
