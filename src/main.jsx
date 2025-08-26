@@ -6,7 +6,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 createRoot(document.getElementById('root')).render(
     <BrowserRouter>
     <Routes>
-        <Route path="*" element={<App />} />
+        <Route path="/" element={<App />} />
+        <Route path="*" element={<center><h1>Page Not Found!</h1></center>} />
     </Routes>
     </BrowserRouter>
 )
