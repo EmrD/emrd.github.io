@@ -21,6 +21,16 @@ jobs:
         
       - name: Build project
         run: npm run build
+
+      - name: Create 404.html
+        run: |
+          echo '<!DOCTYPE html>' > dist/404.html
+          echo '<html lang="en">' >> dist/404.html
+          echo '<head><meta charset="UTF-8"><title>Page Not Found</title></head>' >> dist/404.html
+          echo '<body>' >> dist/404.html
+          echo '<h1>Page not found, redirecting...</h1>' >> dist/404.html
+          echo '<script>window.location.replace("/")</script>' >> dist/404.html
+          echo '</body></html>' >> dist/404.html
       
       - name: Deploy to prod branch
         run: |
