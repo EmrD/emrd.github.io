@@ -85,12 +85,12 @@ export default function Header() {
                     </div>
                 </div>
                 <div className="text-center font-bold text-4xl mt-4 mb-4 bg-gradient-to-r from-blue-400 via-cyan-500 to-teal-400 bg-clip-text text-transparent pb-4">
-                    Projects
+                    Highlighted Projects
                 </div>
                 <BrowserView>
                     <div className="flex items-center justify-center">
                         <div className="grid grid-cols-3 justify-center gap-x-8 gap-y-8 mt-8 px-8">
-                            <a href="#" className="block w-[300px] h-[250px] p-6 bg-white border-2 border-zinc-950 rounded-lg shadow-sm hover:bg-gray-100 text-center">
+                            <a href="https://github.com/EmrD/Sound-Sharing" className="block w-[300px] h-[250px] p-6 bg-white border-2 border-zinc-950 rounded-lg shadow-sm hover:bg-gray-100 text-center">
                                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Sound Sharing</h5>
                                 <p className="font-normal text-gray-700">You can listen your computer's sound on your phone. This project is useful for computers which does not have Bluetooth support.</p>
                             </a>
@@ -98,19 +98,19 @@ export default function Header() {
                                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Remotive</h5>
                                 <p className="font-normal text-gray-700">You can control your computer with out eyes and optionally with your phone app.</p>
                             </a>
-                            <a href="#" className="block w-[300px] h-[250px] p-6 bg-white border-2 border-zinc-950 rounded-lg shadow-sm hover:bg-gray-100 text-center">
+                            <a href="https://marketplace.visualstudio.com/items?itemName=EmrD.doublespacetoenter" className="block w-[300px] h-[250px] p-6 bg-white border-2 border-zinc-950 rounded-lg shadow-sm hover:bg-gray-100 text-center">
                                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Double Space to Enter</h5>
                                 <p className="font-normal text-gray-700">You can double click to space to enter with this extention. You can access on Visual Studio Marketplace.</p>
                             </a>
-                            <a href="#" className="block w-[300px] h-[250px] p-6 bg-white border-2 border-zinc-950 rounded-lg shadow-sm hover:bg-gray-100 text-center">
+                            <a href="https://marketplace.visualstudio.com/items?itemName=EmrD.clean-from-text" className="block w-[300px] h-[250px] p-6 bg-white border-2 border-zinc-950 rounded-lg shadow-sm hover:bg-gray-100 text-center">
                                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Clean # From Text</h5>
                                 <p className="font-normal text-gray-700">You can simply use this extention to clean # from text. You can access on Visual Studio Marketplace. This extention is useful for Git commit messages.</p>
                             </a>
-                            <a href="#" className="block w-[300px] h-[250px] p-6 bg-white border-2 border-zinc-950 rounded-lg shadow-sm hover:bg-gray-100 text-center">
+                            <a href="https://github.com/EmrD/idx-react-template/releases" className="block w-[300px] h-[250px] p-6 bg-white border-2 border-zinc-950 rounded-lg shadow-sm hover:bg-gray-100 text-center">
                                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">React + Tailwind CSS Google IDX Template</h5>
                                 <p className="font-normal text-gray-700">I developed Google IDX template to getting started with React and Tailwind at the same time.</p>
                             </a>
-                            <a href="#" className="block w-[300px] h-[250px] p-6 bg-white border-2 border-zinc-950 rounded-lg shadow-sm hover:bg-gray-100 text-center">
+                            <a href="https://www.npmjs.com/package/todo-cli-package/v/latest" className="block w-[300px] h-[250px] p-6 bg-white border-2 border-zinc-950 rounded-lg shadow-sm hover:bg-gray-100 text-center">
                                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Todo CLI Package</h5>
                                 <p className="font-normal text-gray-700">To manage your project's todos, you can use this CLI package. I published on npmjs.org</p>
                             </a>
@@ -120,7 +120,7 @@ export default function Header() {
                 <MobileView>
                     <div className="flex items-center justify-center px-4 mt-8">
                         <div className="grid grid-cols-1 gap-y-6 w-full max-w-md">
-                            <a href="#" className="block w-full h-auto p-6 bg-white border-2 border-zinc-950 rounded-lg shadow-sm hover:bg-gray-100 text-center">
+                            <a href="https://github.com/EmrD/Sound-Sharing" className="block w-full h-auto p-6 bg-white border-2 border-zinc-950 rounded-lg shadow-sm hover:bg-gray-100 text-center">
                                 <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900">Sound Sharing</h5>
                                 <p className="font-normal text-gray-700">You can listen your computer's sound on your phone. This project is useful for computers which does not have Bluetooth support.</p>
                             </a>
@@ -128,19 +128,19 @@ export default function Header() {
                                 <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900">Remotive</h5>
                                 <p className="font-normal text-gray-700">You can control your computer with out eyes and optionally with your phone app.</p>
                             </a>
-                            <a href="#" className="block w-full h-auto p-6 bg-white border-2 border-zinc-950 rounded-lg shadow-sm hover:bg-gray-100 text-center">
+                            <a href="https://marketplace.visualstudio.com/items?itemName=EmrD.doublespacetoenter" className="block w-full h-auto p-6 bg-white border-2 border-zinc-950 rounded-lg shadow-sm hover:bg-gray-100 text-center">
                                 <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900">Double Space to Enter</h5>
                                 <p className="font-normal text-gray-700">You can double click to space to enter with this extention. You can access on Visual Studio Marketplace.</p>
                             </a>
-                            <a href="#" className="block w-full h-auto p-6 bg-white border-2 border-zinc-950 rounded-lg shadow-sm hover:bg-gray-100 text-center">
+                            <a href="https://marketplace.visualstudio.com/items?itemName=EmrD.clean-from-text" className="block w-full h-auto p-6 bg-white border-2 border-zinc-950 rounded-lg shadow-sm hover:bg-gray-100 text-center">
                                 <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900">Clean # From Text</h5>
                                 <p className="font-normal text-gray-700">You can simply use this extention to clean # from text. You can access on Visual Studio Marketplace. This extention is useful for Git commit messages.</p>
                             </a>
-                            <a href="#" className="block w-full h-auto p-6 bg-white border-2 border-zinc-950 rounded-lg shadow-sm hover:bg-gray-100 text-center">
+                            <a href="https://github.com/EmrD/idx-react-template/releases" className="block w-full h-auto p-6 bg-white border-2 border-zinc-950 rounded-lg shadow-sm hover:bg-gray-100 text-center">
                                 <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900">React + Tailwind CSS Google IDX Template</h5>
                                 <p className="font-normal text-gray-700">I developed Google IDX template to getting started with React and Tailwind at the same time.</p>
                             </a>
-                            <a href="#" className="block w-full h-auto p-6 bg-white border-2 border-zinc-950 rounded-lg shadow-sm hover:bg-gray-100 text-center">
+                            <a href="https://www.npmjs.com/package/todo-cli-package/v/latest" className="block w-full h-auto p-6 bg-white border-2 border-zinc-950 rounded-lg shadow-sm hover:bg-gray-100 text-center">
                                 <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900">Todo CLI Package</h5>
                                 <p className="font-normal text-gray-700">To manage your project's todos, you can use this CLI package. I published on npmjs.org</p>
                             </a>
