@@ -163,7 +163,7 @@ export default function Projects() {
                         >
                             <h3 class="font-semibold text-lg mb-1">AInternet</h3>
                             <p class="leading-tight text-justify">
-                                AI uses browser and makes your actions. Written in Python. Requires API key.
+                                AI uses browser, makes your actions. Written in Python. Requires API key.
                             </p>
                             <a href="https://github.com/EmrD/ainternet-control-browser-with-ai" className="font-bold underline">GitHub Repository</a>
                         </div>
