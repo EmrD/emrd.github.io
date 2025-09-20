@@ -13,6 +13,8 @@ function OpenVideoButton({ iframeSrc }) {
           </body>
         </html>
       `);
+    }else if (!videoWindow){
+      alert("Please allow pop-up permission and refresh the page to see the video")
     }
   };
 
