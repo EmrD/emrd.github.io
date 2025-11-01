@@ -310,7 +310,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */class tk{constructor(e){this.container=e}getPlatformInfoString(){return this.container.getProviders().map(n=>{if(nk(n)){const r=n.getImmediate();return`${r.library}/${r.version}`}else return null}).filter(n=>n).join(" ")}}function nk(t){const e=t.getComponent();return(e==null?void 0:e.type)==="VERSION"}const zd="@firebase/app",Iy="0.14.3";/**
+ */class tk{constructor(e){this.container=e}getPlatformInfoString(){return this.container.getProviders().map(n=>{if(nk(n)){const r=n.getImmediate();return`${r.library}/${r.version}`}else return null}).filter(n=>n).join(" ")}}function nk(t){const e=t.getComponent();return(e==null?void 0:e.type)==="VERSION"}const zd="@firebase/app",Iy="0.14.5";/**
  * @license
  * Copyright 2019 Google LLC
  *
@@ -325,7 +325,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */const Rr=new KS("@firebase/app"),rk="@firebase/app-compat",ik="@firebase/analytics-compat",ok="@firebase/analytics",sk="@firebase/app-check-compat",ak="@firebase/app-check",lk="@firebase/auth",uk="@firebase/auth-compat",ck="@firebase/database",fk="@firebase/data-connect",hk="@firebase/database-compat",dk="@firebase/functions",pk="@firebase/functions-compat",mk="@firebase/installations",gk="@firebase/installations-compat",vk="@firebase/messaging",yk="@firebase/messaging-compat",wk="@firebase/performance",Ek="@firebase/performance-compat",_k="@firebase/remote-config",Sk="@firebase/remote-config-compat",bk="@firebase/storage",Tk="@firebase/storage-compat",xk="@firebase/firestore",Ik="@firebase/ai",Ck="@firebase/firestore-compat",Ak="firebase",Pk="12.3.0";/**
+ */const Rr=new KS("@firebase/app"),rk="@firebase/app-compat",ik="@firebase/analytics-compat",ok="@firebase/analytics",sk="@firebase/app-check-compat",ak="@firebase/app-check",lk="@firebase/auth",uk="@firebase/auth-compat",ck="@firebase/database",fk="@firebase/data-connect",hk="@firebase/database-compat",dk="@firebase/functions",pk="@firebase/functions-compat",mk="@firebase/installations",gk="@firebase/installations-compat",vk="@firebase/messaging",yk="@firebase/messaging-compat",wk="@firebase/performance",Ek="@firebase/performance-compat",_k="@firebase/remote-config",Sk="@firebase/remote-config-compat",bk="@firebase/storage",Tk="@firebase/storage-compat",xk="@firebase/firestore",Ik="@firebase/ai",Ck="@firebase/firestore-compat",Ak="firebase",Pk="12.5.0";/**
  * @license
  * Copyright 2019 Google LLC
  *
@@ -445,7 +445,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */function Gk(t){Oc(new rl("platform-logger",e=>new tk(e),"PRIVATE")),Oc(new rl("heartbeat",e=>new $k(e),"PRIVATE")),Xo(zd,Iy,t),Xo(zd,Iy,"esm2020"),Xo("fire-js","")}Gk("");var Kk="firebase",Qk="12.3.0";/**
+ */function Gk(t){Oc(new rl("platform-logger",e=>new tk(e),"PRIVATE")),Oc(new rl("heartbeat",e=>new $k(e),"PRIVATE")),Xo(zd,Iy,t),Xo(zd,Iy,"esm2020"),Xo("fire-js","")}Gk("");var Kk="firebase",Qk="12.5.0";/**
  * @license
  * Copyright 2020 Google LLC
  *
@@ -2058,7 +2058,7 @@ This typically indicates that your device does not have a healthy Internet conne
  */function JD(t){t=Wd(t,tn);const e=Wd(t.firestore,rb);return UD(WD(e),t._key).then(n=>eV(e,t,n))}La._jsonSchemaVersion="firestore/querySnapshot/1.0",La._jsonSchema={type:pt("string",La._jsonSchemaVersion),bundleSource:pt("string","QuerySnapshot"),bundleName:pt("string"),bundle:pt("string")};class ZD extends YD{constructor(e){super(),this.firestore=e}convertBytes(e){return new dr(e)}convertReference(e){const n=this.convertDocumentKey(e,this.firestore._databaseId);return new tn(this.firestore,null,n)}}function eV(t,e,n){const r=n.docs.get(e._key),i=new ZD(t);return new to(t,i,e._key,r,new ca(n.hasPendingWrites,n.fromCache),e.converter)}(function(e,n=!0){(function(i){Ts=i})(Lk),Oc(new rl("firestore",(r,{instanceIdentifier:i,options:o})=>{const s=r.getProvider("app").getImmediate(),l=new rb(new Jk(r.getProvider("auth-internal")),new tN(s,r.getProvider("app-check-internal")),function(c,h){if(!Object.prototype.hasOwnProperty.apply(c.options,["projectId"]))throw new Z(H.INVALID_ARGUMENT,'"projectId" not provided in firebase.initializeApp.');return new al(c.options.projectId,h)}(s,i),s);return o={useFetchStreams:n,...o},l._setSettings(o),l},"PUBLIC").setMultipleInstances(!0)),Xo(Ny,Oy,e),Xo(Ny,Oy,"esm2020")})();function tV({iframeSrc:t}){const e=()=>{const n=window.open("","_blank","width=800,height=600");n?n.document.write(`
         <html>
           <head><title>ApplyBAU Video</title></head>
-          <body style="margin:0; display:flex; justify-content:center; align-items:center; height:100vh; background:#000;">
+          <body style="margin:0; display:flex; justify-content:center; align-items:center; height:100vh; background:#ffffff;">
             ${t}
           </body>
         </html>
