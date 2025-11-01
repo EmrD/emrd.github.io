@@ -8,7 +8,7 @@ function OpenVideoButton({ iframeSrc }) {
       videoWindow.document.write(`
         <html>
           <head><title>ApplyBAU Video</title></head>
-          <body style="margin:0; display:flex; justify-content:center; align-items:center; height:100vh; background:#ffffff;">
+          <body style="margin:0; display:flex; flex-direction:column; justify-content:center; align-items:center; height:100vh; background:#ffffff; gap:20px;">
             ${iframeSrc}
           </body>
         </html>
