@@ -25,7 +25,6 @@ function App() {
       const type = urlParams.get("state");
       const key = urlParams.get("key");
 
-      if (type === "internal" && key) {
         const docRef = doc(db, key, "video");
         try {
           const docSnap = await getDoc(docRef);
@@ -33,7 +32,6 @@ function App() {
             setVideoData(docSnap.data());
           } 
         } catch (err) {}
-      }
     };
 
     fetchData();
