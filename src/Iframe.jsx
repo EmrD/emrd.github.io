@@ -14,7 +14,7 @@ function OpenVideoButton({ iframeSrc }) {
         </html>
       `);
     }else if (!videoWindow){
-      alert("Please allow pop-up permission and refresh the page to see the video")
+      alert("Videoyu görmek için açılır pencere iznini verin ve sayfayı yenileyin")
     }
   };
 
